@@ -1,0 +1,27 @@
+# Files
+alias showhiddenfiles="defaults write com.apple.Finder AppleShowAllFiles TRUE; killAll Finder"
+alias hidehiddenfiles="defaults write com.apple.Finder AppleShowAllFiles FALSE; killAll Finder"
+alias ll='ls -FGlAhp'
+
+# DNS
+alias flushdns="sudo killall -HUP mDNSResponder"
+alias hosts="edit /etc/hosts"
+
+# Editor
+alias edit="sudo nano"
+
+# Laravel
+alias art="php artisan"
+alias test="./vendor/bin/phpunit"
+
+# Profile
+alias ep="edit ~/.profile"
+alias rp=". ~/.profile"
+
+# Git
+alias gc="git commit -m"
+alias gs="git status"
+alias gl="git log"
+alias gl1="git log --oneline"
+
+# SSH
